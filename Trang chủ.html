@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1 FOOD</title>
+    <style>
+        body {background-color:#F5DEB3; font-family: Arial, sans-serif; text-align: center; }
+        .product { display: inline-block; margin: 20px; border: 1px solid #ddd; padding: 10px;
+			background-color: #ffffff; border-radius: 15px; }
+		nav { 
+            background: #556B2F; 
+            padding: 5px; 
+            display: flex;
+            justify-content: space-around;
+			}
+        
+        nav a { 
+            color: white; 
+            margin:10px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 18px;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+			}
+        
+        nav a:hover {
+            transform: scale(1.2);
+            font-size: 20px;
+			}
+        .banner {
+            background: url("anh/vb.png") no-repeat center center;
+            background-size: cover;
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+            text-align: center !important;
+            color: #6D597A !important;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .box {
+            width: 45%;
+            padding: 20px;
+            background: #FAF3E0; /* Màu pastel */
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        h2 {
+            text-align: center;
+            color: #885A5A;
+        }
+        .footer {
+            background-color: #006400; /* Màu đậm hơn */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+        }
+        .footer a {
+            color: #FFD600;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #FF1744;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+        <nav>
+		    <a href="Trang chủ (2).html">Trang Chủ</a>
+            <a href="Trang chủ.html">Giới Thiệu</a>
+            <a href="combo.html">Combo</a>
+            <a href="food.html">Đồ ăn</a>
+            <a href="drink.html">Thức uống</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box">
+            <h2>Giới thiệu nhân viên</h2>
+            <a href="giới thiệu nhân viên.html"><img src="anh/ảnh nhóm.jpg" alt="ảnh nhóm" width="550"></a>
+        </div>
+        <div class="box">
+            <h2>Feedback của khách hàng</h2>
+            <a href="feedback.html"><img src="anh/feedback.png" alt="feedback" width="550"></a>
+        </div>
+    </div>
+    <footer>
+        <div id="menu" class="hidden"></div>
+        <div class="footer">
+            📞 Liên hệ: 0347070154 hoặc 0352066585<br>
+            | Địa chỉ: Group 1 <br>
+            <a href="https://www.facebook.com/QTruong282">Liên hệ bạn dzai của shop ở đây nhé</a>
+        </div>
+    </footer>
+</body>
+</html>

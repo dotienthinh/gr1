@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 FOOD</title>
+    <style> 
+		body {background-color:#DEB887; font-family: Arial, sans-serif; text-align: center; }
+        .product { display: inline-block; margin: 20px; border: 1px solid #ddd; padding: 10px;
+			background-color: #ffffff; border-radius: 15px; }
+		nav { 
+            background:#800020 ; 
+            padding: 5px; 
+            display: flex;
+            justify-content: space-around;
+			}
+        
+        nav a { 
+            color: white; 
+            margin:10px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 18px;
+            transition: transform 0.3s ease, font-size 0.3s ease;
+			}
+        
+        nav a:hover {
+            transform: scale(1.2);
+            font-size: 20px;
+			}
+		img { width: 220px; height: 220px; }
+		.banner {
+			background: url("anh/vb.png") no-repeat center center;
+			background-size: cover;
+			padding-top: 10rem;	
+			padding-bottom:10rem;
+			text-align: center !important;	
+			color: darked   !important;	
+			}
+		.footer {
+			background-color:  #992233 ; 
+			color: white; 
+			text-align: center; 
+			padding: 20px; 
+			font-size: 16px;
+			}
+
+		.footer a {
+			color:#fdd835; 
+			text-decoration: none;
+			font-weight: bold;
+			transition: color 0.3s ease;
+			}
+
+		.footer a:hover {
+			color: #ffcc80; 
+			text-decoration: underline;
+			}
+		{
+            font-family: Arial, sans-serif;
+        }
+
+        .food-carousel {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .food-items {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .food-item {
+            min-width: 250px;
+            margin: 0 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .food-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .food-item h3 {
+            padding: 10px;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+
+        button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            font-size: 24px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+.promo-combos {
+  background-color: #F5DEB3;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.combo-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.combo-item {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+}
+
+.combo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.combo-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.combo-item .price {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.cta-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e55342;
+}
+
+    </style>
+</head>
+<header>
+		<div class="banner">
+		</div>
+		<nav>
+		    <a href="Trang chủ (2).html">Trang Chủ</a>	
+			<a href="Trang chủ.html">Giới Thiệu</a>
+			<a href="combo.html">Combo</a>
+			<a href="food.html">Đồ ăn</a>
+			<a href="drink.html">Thức uống</a>
+		</nav>
+	</header>
+<body>
+    <div class="food-carousel">
+        <div class="food-items">
+            <div class="food-item">
+                <img src="anh/b.jpg" alt="Món ăn 1">
+                <h3>Mì cay</h3>
+            </div>
+            <div class="food-item">
+                <img src="anh/a.jpg" alt="Món ăn 2">
+                <h3>Đùi gà chiên</h3>
+            </div>
+            <div class="food-item">
+                <img src="anh/ad.jpg" alt="Món ăn 3">
+                <h3>Mì ý</h3>
+            </div>
+            <div class="food-item">
+                <img src="anh/c.jpg" alt="Món ăn 4">
+                <h3>Cơm cuộn</h3>
+            </div>
+			<div class="food-item">
+                <img src="anh/d.jpg" alt="Món ăn 4">
+                <h3>Humberger</h3>
+            </div>
+			<div class="food-item">
+                <img src="anh/7.jpg" alt="Món ăn 4">
+                <h3>Gỏi cuốn</h3>
+            </div>
+			<div class="food-item">
+                <img src="anh/g.jpg" alt="Món ăn 4">
+                <h3>Chân gà</h3>
+            </div>
+			<div class="food-item">
+                <img src="anh/fg.jpg" alt="Món ăn 4">
+                <h3> Xôi</h3>
+            </div>
+			<div class="food-item">
+                <img src="anh/f.jpg" alt="Món ăn 4">
+                <h3>Bún chả</h3>
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+<section class="promo-combos">
+  <div class="combo-list">
+    <div class="combo-item">
+      <img src="anh/0.png" alt="Combo 1" />
+      <h3>Combo Nội trú</h3>
+      <p>Giá: <span class="price">70.000 VND</span></p>
+    </div>
+    <div class="combo-item">
+      <img src="anh/l.jpg" alt="Combo 2" />
+      <h3>Combo Ma quái</h3>
+      <p>Giá: <span class="price">75.000 VND</span></p>
+    </div>
+  </div>
+</section>
+<section class="promo-combos">
+  <div class="combo-list">
+    <div class="combo-item">
+      <img src="anh/x.jpg" alt="Combo 1" />
+      <h3>Combo Hoàng gia</h3>
+      <p>Giá: <span class="price">70.000 VND</span></p>
+    </div>
+    <div class="combo-item">
+      <img src="anh/z.jpg" alt="Combo 2" />
+      <h3>Combo Healthy</h3>
+      <p>Giá: <span class="price">75.000 VND</span></p>
+    </div>
+  </div>
+</section>
+<script>
+        let index = 0;
+
+        function moveSlide(step) {
+            const items = document.querySelectorAll(".food-item");
+            const totalItems = items.length;
+
+            index += step;
+
+            if (index >= totalItems) {
+                index = 0;
+            }
+
+            if (index < 0) {
+                index = totalItems - 1;
+            }
+
+            const carousel = document.querySelector(".food-items");
+            carousel.style.transform = `translateX(${-index * (250 + 20)}px)`; // 250px là độ rộng của mỗi món ăn, 20px là khoảng cách giữa các món
+        }
+    </script>
+	<footer>
+	</div>
+    <div id="menu" class="hidden"></div>
+    <div class="footer">📞 Liên hệ: 0347070154 hoặc 0352066585	<br>| Địa chỉ: Group 1 <br>
+	<a href="https://www.facebook.com/QTruong282"> Liên hệ bạn dzai của shop ở đây nhé </a>
+	</div>
+</footer>
+</body>
+</html>
